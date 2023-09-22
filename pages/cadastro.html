@@ -11,17 +11,80 @@
 </head>
 
 <body>
-  <div class="container text-center">
+
+  <!-- TITULO -->
+  <div class="p-0 container-fluid text-center">
     <div class="col">
-      <div class="text-start">
-        One of three columns
+      <div class="pt-3 text-start div-titulo">
+        <h5 class="m-1 border-bottom border-primary border-4 ps-5"> Dados pessoais </h5>
       </div>
-  </div>
+    </div>
+
+    <!-- INPUTS -->
+
+    <div class="container-fluid text-center pt-4">
+      <div class="row flex-column row-gap-3">
+
+        <div class="col">
+          <input type="text" class="form-control container p-2" placeholder="Nome completo" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="col">
+          <input type="text" class="form-control container p-2" placeholder="Nacionalidade" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="col">
+          <input type="text" class="form-control container p-2" placeholder="CNH/CPF/CNPJ" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="col">
+          <input type="text" class="form-control container p-2" placeholder="Telefone" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="col">
+          <input type="text" class="form-control container p-2" placeholder="E-mail" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CHECKED -->
+
+    <div class="form-switch container-fluid pt-3">
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked">
+        Li e aceito os <a
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+          href="#">
+          Termos de uso
+        </a>
+      </label>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="d-grid gap-2 col-7 mx-auto pt-3 pb-3">
+      <button class="btn btn-primary rounded-4" type="button">
+        <h6 class="m-1">Continuar</h6>
+      </button>
+    </div>
+
+    <!-- JÁ POSSUI CONTA -->
+    <div class="container-fluid border-top border-secondary-subtle border-1">
+      <p class="p-3">Já possui conta? <a href="#"
+          class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Acessar</a>
+      </p>
+
+    </div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      </script>
 </body>
 
 </html>

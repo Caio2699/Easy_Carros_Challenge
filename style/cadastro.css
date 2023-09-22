@@ -1,3 +1,8 @@
 body {
   background: #EBEDF5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-titulo{
+  width: 65%;
 }
