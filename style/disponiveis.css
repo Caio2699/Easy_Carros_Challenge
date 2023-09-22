@@ -1,0 +1,31 @@
+body {
+  background: #EBEDF5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-car-1 {
+  width: 150.75px;
+  height: 60.85px;
+  object-fit: cover;
+}
+
+.img-car-2 {
+  Width: 150.75px;
+  Height: 79.95px;
+  object-fit: cover;
+}
+
+.img-car-3 {
+  width: 167.03px;
+  Height: 122.99px;
+  object-fit: cover;
+}
+
+.menu-img {
+  width: 37px;
+  height: 35px;
+}
+
+.tabs {
+  width: 100%;
+}
