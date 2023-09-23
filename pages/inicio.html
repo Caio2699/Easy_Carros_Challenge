@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/inicial.css">
+    <!--Maps integration-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU4AVzIdX0O1SZdBHydSU3EoyFD2oz1Kc&callback=inicializarMapa"
+        async defer></script>
+    <script src="../js/maps.js"></script>
+    <!-- end Maps integration-->
+    <title>Página inicial</title>
 </head>
+
 <body>
-    
+    <!-- MENU -->
+    <div class="container">
+        <div class="main" id="map"></div>
+        <div class="container-fluid p-3 bg-light">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="d-flex localizar">
+                        <input type="text" class="form-control rounded-pill mr-2" placeholder="Localizar">
+                        <button id="localizar-btn" class="btn btn-primary rounded-pill">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="menu">
+                <div class="tab">
+                    <img class="menu-img btn-img" src="../imgs/home-gc0b6dc1e3_1280 1.png" alt="home">
+                    <p class="m-0 text">Inicio</p>
+                </div>
+
+                <div class="tab">
+                    <img class="menu-img btn-img" src="../imgs/local-na-rede-internet.png" alt="reservas">
+                    <p class="m-0 text">Reservas</p>
+                </div>
+
+                <div class="tab">
+                    <img class="menu-img btn-img" src="../imgs/imagem-do-usuario-com-fundo-preto.png" alt="Perfil">
+                    <p class="m-0 text">Perfil</p>
+                </div>
+
+                <div class="tab">
+                    <img class="menu-img btn-img" src="../imgs/wallet-g019380131_1280 (1) 1.png" alt="Carteira">
+                    <p class="m-0 text">Carteira</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
