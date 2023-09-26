@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/sobre.css">  
+</head>
+<body>
+    <div class="carousel-container">
+        <ul class="carousel">
+            <li class="carousel-item">
+                <img  src="../imgs/easycarros.png" alt="Logo">
+            </li>
+            <li class="carousel-item">
+                <div class="carousel-title">Bem-vindo!</div>
+                <img  src="../imgs/carro.png" alt="Imagem 1">
+                <div class="carousel-text">Aluguel de carros com segurança e praticidade!</div>
+            </li>
+            <li class="carousel-item">
+                <div class="carousel-title">Facilidade</div>
+                <img  src="../imgs/localizacao.png" alt="Imagem 2">
+                <div class="carousel-text">Carros disponíveis perto de você!</div>
+            </li>
+            <li class="carousel-item">
+                <div class="carousel-title">Economia</div>
+                <img  src="../imgs/economia.png" alt="Imagem 3">
+                <div class="carousel-text"> Contamos com uma forma justa de cobrança. 
+                    Isso é mais economia para o seu bolso!</div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const items = document.querySelectorAll('.carousel-item');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+
+            // Alterar a cor de fundo da página com base no índice atual
+            const colors = ['rgba(235, 237, 245, 1)', 'rgba(42, 78, 160, 1)', 'rgba(11, 219, 196, 1)', 'rgba(42, 78, 160, 1)'];
+            document.body.style.backgroundColor = colors[index];
+        }
+
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % items.length;
+            showSlide(currentIndex);
+        }
+
+        setInterval(nextSlide, 3000); // Troca a cada 3 segundos
+
+        showSlide(currentIndex);
+    </script>
+</body>
+</html>
