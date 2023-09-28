@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/sobre.css">  
+    <link rel="stylesheet" href="../style/sobre.css">
 </head>
+
 <body>
     <div class="carousel-container">
         <ul class="carousel">
             <li class="carousel-item">
-                <img  src="../imgs/easycarros.png" alt="Logo">
+                <img src="../imgs/easycarros.png" alt="Logo">
             </li>
             <li class="carousel-item">
                 <div class="carousel-title">Bem-vindo!</div>
-                <img  src="../imgs/carro.png" alt="Imagem 1">
+                <div class="circle-container">
+                    <img src="../imgs/carro.png" alt="Imagem 1">
+                </div>
+                <br>
                 <div class="carousel-text">Aluguel de carros com segurança e praticidade!</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img style="padding-left: 25%;" src="../imgs/trespontos.png" height="30px" width="30px" alt="Imagem 1">
+                <a style="float: right; padding-right: 15%;" class="nextPageButton">Pular</a>
             </li>
             <li class="carousel-item">
                 <div class="carousel-title">Facilidade</div>
-                <img  src="../imgs/localizacao.png" alt="Imagem 2">
+                <div class="circle-container">
+                    <img src="../imgs/localizacao.png" alt="Imagem 2">
+                </div>
+                <br>
                 <div class="carousel-text">Carros disponíveis perto de você!</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img style="padding-left: 25%;" src="../imgs/trespontos.png" height="30px" width="30px" alt="Imagem 1">
+                <a style="float: right; padding-right: 15%;" class="nextPageButton">Pular</a>
             </li>
             <li class="carousel-item">
                 <div class="carousel-title">Economia</div>
-                <img  src="../imgs/economia.png" alt="Imagem 3">
-                <div class="carousel-text"> Contamos com uma forma justa de cobrança. 
+                <img src="../imgs/economia.png" alt="Imagem 3">
+                <br>
+                <div class="carousel-text"> Contamos com uma forma justa de cobrança.
                     Isso é mais economia para o seu bolso!</div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img style="padding-left: 25%;" src="../imgs/trespontos.png" height="30px" width="30px" alt="Imagem 1">
+                <a style="float: right; padding-right: 15%;" class="nextPageButton">Pular</a>
             </li>
         </ul>
     </div>
+
     <script>
         const carousel = document.querySelector('.carousel');
         const items = document.querySelectorAll('.carousel-item');
@@ -42,15 +79,13 @@
             document.body.style.backgroundColor = colors[index];
         }
 
-
         function nextSlide() {
             currentIndex = (currentIndex + 1) % items.length;
             showSlide(currentIndex);
         }
-
         setInterval(nextSlide, 3000); // Troca a cada 3 segundos
-
         showSlide(currentIndex);
     </script>
 </body>
+
 </html>
