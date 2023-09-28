@@ -11,15 +11,6 @@
 
   <link rel="stylesheet" href="/style/reservas.css">
 
-  <!--Maps integration-->
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU4AVzIdX0O1SZdBHydSU3EoyFD2oz1Kc&callback=inicializarMapa"
-    async defer>
-    </script>
-  <!-- end Maps integration-->
-  <script src="/js/maps.js"></script>
-
-
 </head>
 
 <body>
@@ -36,7 +27,6 @@
   </div>
 
   <!-- SUBTITULO -->
-
   <div class="container text-center py-2">
     <div class="row align-items-start">
       <div class="col text-start">
@@ -48,17 +38,51 @@
     </div>
   </div>
 
+  <!-- Mapa -->
+  <div class="container-fluid text-center pt-2">
+    <figure class="my-1">
+      <img src="/imgs/image 1.png" alt="Mapa">
+    </figure>
+  </div>
 
-  <div class="main" id="map"></div>
-  <div class="container-fluid p-3 bg-light">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="d-flex localizar">
-          <input type="text" class="form-control rounded-pill mr-2" placeholder="Localizar">
-          <button id="localizar-btn" class="btn btn-primary rounded-pill">&gt;</button>
-        </div>
+
+  <div class="container-fluid d-flex flex-column row-gap-1">
+
+    <div class="container-fluid text-start ">
+      <div class="ps-4 container cars rounded-top p-0">
+        <p class="m-0">27 Set. 21:47 PM</p>
+        <p class="m-0">R$: 150</p>
+      </div>
+      <div class="container cars rounded-bottom ps-4 pe-2 d-flex p-0 justify-content-between align-items-center">
+        <p class="m-0">HB20</p>
+        <img src="/imgs/car-g192bae029_1280 1.png" alt="Carros">
       </div>
     </div>
+
+
+    <div class="container-fluid text-start">
+      <div class="ps-4 container rounded-top cars p-0">
+        <p class="m-0">27 Set. 21:47 PM</p>
+        <p class="m-0">R$: 150</p>
+      </div>
+      <div class="container cars rounded-bottom ps-4 pe-2 d-flex p-0 justify-content-between align-items-center">
+        <p class="m-0">HB20</p>
+        <img src="/imgs/car-g192bae029_1280 1.png" alt="Carros">
+      </div>
+    </div>
+
+    <div class="container-fluid text-start ">
+      <div class="ps-4 container rounded-top cars p-0">
+        <p class="m-0">27 Set. 21:47 PM</p>
+        <p class="m-0">R$: 150</p>
+      </div>
+      <div class="container rounded-bottom cars ps-4 pe-2 d-flex p-0 justify-content-between align-items-center">
+        <p class="m-0">HB20</p>
+        <img src="/imgs/car-g192bae029_1280 1.png" alt="Carros">
+      </div>
+    </div>
+
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
