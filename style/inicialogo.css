@@ -1,0 +1,21 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para o conteúdo centralizado */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura da viewport */
+}
+
+/* Estilos para a imagem */
+.imagem-centralizada {
+    max-width: 100%;
+    height: auto;
+}
