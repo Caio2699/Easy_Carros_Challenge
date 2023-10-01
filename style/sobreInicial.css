@@ -1,0 +1,51 @@
+body {
+    background-color: #2A4EA0;
+}
+
+.circulon {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    font-size: 30px;
+    margin-top: 50px; /* Ajuste de espaço */
+    margin-bottom: 10px; /* Ajuste de espaço */
+    color: #fff;
+}
+
+.imagem-centralizada {
+    max-width: 90%;
+    max-height: 60vh;
+    position: relative;
+    z-index: 1; /* Coloque a imagem sobre o círculo */
+}
+
+.btn-pular {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #fff; /* Cor do texto */
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: center;
+}
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.texto {
+    color: #fff;
+    margin-bottom: 1%; /* Adicionando 20 pixels de margem inferior */
+}

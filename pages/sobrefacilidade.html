@@ -3,25 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=320, initial-scale=1">
     <title>Sobre</title>
     <!-- Link CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style/sobre.css">
+    <link rel="stylesheet" href="../style/sobreInicial.css">
 </head>
 
-<body>
-    <div class="conteudo">
-        <h1 class="titulo">Facilidade</h1>
-        <img class="imagem-centralizada" src="../imgs/localizacao.png" alt="Localização">
-        <p class="texto">Carros disponíveis perto de você!</p>
+<body class="d-flex flex-column justify-content-between" style="min-height: 100vh; background-color: #09DCC4;">
+
+    <div class="container text-center mt-5 position-relative">
+        <h1 class="titulo mb-5">Facilidade</h1>
+        <div class="circulon position-absolute top-60 start-50 translate-middle"></div>
+        <img class="imagem-centralizada mt-3" src="../imgs/localizacao.png" alt="Carro">
+        <p class="texto mt-4">Carros disponíveis perto de você!</p>
     </div>
-    <a href="sobreeconomia.html" class="botao-pular" >Pular</a>
-    <div class="bolinhas">
+
+    <div class="d-flex fixed-bottom bolinhas mb-4">
         <div class="bolinha"></div>
-        <div style="background-color: #2A4EA0;" class="bolinha"></div>
+        <div style="background-color: #09D;" class="bolinha"></div>
         <div class="bolinha"></div>
     </div>
+
+    <div class="d-flex justify-content-end pe-4 mb-3">
+        <a href="sobrefacilidade.html" class="btn btn-pular text-decoration-none">Pular</a>
+    </div>
+
+    <!-- Link do Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

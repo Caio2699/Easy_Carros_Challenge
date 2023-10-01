@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=320, initial-scale=1">
     <title>Sobre</title>
     <!-- Link CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/sobre.css">
+    <link rel="stylesheet" href="../style/sobreInicial.css">
 </head>
-<style>
-    body {
-        background-color: #2A4EA0;
-    }
-</style>
 
-<body>
-    <div class="conteudo">
-        <h1 class="titulo">Economia</h1>
-        <img class="imagem-centralizada" src="../imgs/economia.png" alt="Economia">
-        <h1 class="texto">Contamos com uma forma justa de cobrança. Isso é mais economia para o seu bolso!</h1>
+<body class="d-flex flex-column justify-content-between" style="min-height: 100vh;">
+
+    <div class="container text-center mt-5 position-relative">
+        <h1 class="titulo mb-5">Bem-vindo!</h1>
+        <div class="circulon position-absolute top-50 start-50 translate-middle"></div>
+        <img class="imagem-centralizada mt-3" src="../imgs/economia.png" alt="Economia">
+        <p class="texto mt-5">Contamos com uma forma justa de cobrança. Isso é mais economia para o seu bolso!</p>
     </div>
-    <a href="" class="botao-pular">Pular</a>
-    <div class="bolinhas">
+
+    <div class="d-flex fixed-bottom bolinhas mb-4">
         <div class="bolinha"></div>
         <div class="bolinha"></div>
         <div style="background-color: #09DCC4;" class="bolinha"></div>
     </div>
-</body>
 
-</html>
+    <div class="d-flex justify-content-end pe-4 mb-3">
+        <a href="sobrefacilidade.html" class="btn  btn-pular text-decoration-none">Pular</a>
+    </div>
+
+    <!-- Link do Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
