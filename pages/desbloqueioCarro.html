@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desbloqueio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style/desbloqueio.css">
+
 </head>
+
 <body>
-        <img style="width: 77px; height: 77px; left: 149px; top: 57px; position: absolute; border: 1px black solid" src="../imgs/343798380_970400597319605_9211026677470904660_n 3.png" />
-        <img style="width: 207px; height: 233px; left: 83px; top: 206px; position: absolute" src="https://via.placeholder.com/207x233" />
-        <div style="width: 225px; height: 63px; left: 74px; top: 143px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">Veículo destravado com sucesso!</div>
-        <img style="width: 38px; height: 38px; left: 328.35px; top: 540.35px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0" src="imgs/9110796_x_icon 2.png" />
-        <div style="left: 97px; top: 509px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">voltar para o início</div>
-        <div style="left: 11px; top: 10px; position: absolute">
-            <div style="left: 46px; top: 0px; position: absolute; color: black; font-size: 25px; font-family: Inter; font-weight: 500; word-wrap: break-word">Destravar</div>
-            <img style="width: 26px; height: 26px; left: 0px; top: 4px; position: absolute" src="../imgs/9110796_x_icon 2.png" />
-        </div>
-        <img style="width: 139px; height: 80px; left: 118px; top: 562px; position: absolute" src="https://via.placeholder.com/139x80" />
-    
+    <!-- Titulo -->
+    <div class="container-fluid d-flex align-items-center my-2 column-gap-3">
+        <img src="/imgs/9110796_x_icon 2.png" alt="Icone X">
+        <h4 class="m-0">Desbloquear</h4>
+    </div>
+
+    <!-- Logo com descrição -->
+    <div class="container-fluid p-0 mt-4">
+        <figure class="d-flex align-items-center justify-content-center">
+            <img src="/imgs/343798380_970400597319605_9211026677470904660_n 3.png" alt="Logo">
+        </figure>
+        <h5 class="text-center">
+            Veículo destravado com sucesso!
+        </h5>
+    </div>
+
+    <!-- Cadeado -->
+    <div class="container-fluid text-center my-3 mb-4">
+        <figure>
+            <img id="locked" src="/imgs/3671804_lock_open_icon 1.png" alt="Cadeado">
+        </figure>
+    </div>
+
+    <!-- Voltar para o Inicio -->
+    <div class="container-fluid d-flex align-items-center justify-content-end column-gap-3">
+        <p class="m-0">Voltar para o início</p>
+        <img src="/imgs/352020_arrow_back_icon 2.png" alt="Seta início">
+    </div>
+
+    <!-- Maps e Waze -->
+    <div class="container-fluid text-center my-4">
+        <figure>
+            <img src="/imgs/navigation-icons 1.png" alt="Maps">
+        </figure>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
