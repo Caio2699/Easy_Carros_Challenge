@@ -57,3 +57,12 @@ body {
 }
 
 
+.menu-link{
+    text-decoration: none; /* Remove o sublinhado */
+    cursor: pointer;
+    color: black; /* Adiciona o cursor de clique */
+}
+
+.menu-link:hover {
+    /* Adicione estilos de hover se desejado */
+}
