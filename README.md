@@ -9,4 +9,4 @@ Challenge FIAP + BRQ
 ## Como Usar
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/aluguel-de-carros-app.git`
-2. Abra o arquivo `index.html` em seu navegador.
+2. Abra o arquivo `inicio.html` em seu navegador.
